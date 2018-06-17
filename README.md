@@ -16,3 +16,5 @@
 - [x] Allowing Multiple guesses with looping
 - [x] Quitting After a correct guess
 - [x] Handling invalid input
+- [x] optional: show the possible range
+- [ ] optional: counter
