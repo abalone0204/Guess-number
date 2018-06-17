@@ -10,7 +10,9 @@
   - [x] editor: vscode
     - [x] Install RLS
     - [x] install racer via cargo
-- [ ] Get user input
-- [ ] Generating a secret number
-- [ ] Comparing number
-- [ ] Allowing Multiple guesses with looping
+- [x] Get user input
+- [x] Generating a secret number
+- [x] Comparing number
+- [x] Allowing Multiple guesses with looping
+- [x] Quitting After a correct guess
+- [x] Handling invalid input
