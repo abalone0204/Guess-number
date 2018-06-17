@@ -17,4 +17,15 @@
 - [x] Quitting After a correct guess
 - [x] Handling invalid input
 - [x] optional: show the possible range
-- [ ] optional: counter
+- [x] optional: counter
+
+## Note
+
+> I've learned these concepts, will find further detail in next few chapters
+
+- How to setup cargo & editor
+- Using external & standard library
+- What is trait
+- Mutable variable & Immutable variable
+- `match`
+- Enumerator
