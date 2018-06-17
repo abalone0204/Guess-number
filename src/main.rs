@@ -8,8 +8,9 @@ fn main() {
     let secret_number = rand::thread_rng().gen_range(1, 101);
     let mut max = 100;
     let mut min = 1;
-    println!("The secret number is: {}", secret_number);
+    // println!("The secret number is: {}", secret_number);
     loop {
+        println!("------");
         println!("Current range: {} - {}", min, max);
         println!("Please input your guess:");
         let mut guess = String::new();
@@ -19,14 +20,17 @@ fn main() {
             Ok(num) => num,
             Err(_) => continue,
         };
+        if guess > max || guess < min {
+            println!("Out of range");
+            continue;
+        }
         match guess.cmp(&secret_number) {
             Ordering::Less => {
+
                 min = guess;
-                println!("Too small")
             },
             Ordering::Greater => {
                 max = guess;
-                println!("Too big")
             },
             Ordering::Equal => {
                 println!("You win!");
